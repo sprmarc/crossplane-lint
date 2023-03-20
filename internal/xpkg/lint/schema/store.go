@@ -73,7 +73,7 @@ func addMetaDataToSchema(crdv *extv1.CustomResourceDefinitionVersion) {
 			Type: "string",
 		},
 		"uid": {
-			Type: "string"
+			Type: "string",
 		},
 		"labels": {
 			AdditionalProperties: &extv1.JSONSchemaPropsOrBool{
